@@ -1,13 +1,16 @@
 <template>
-  <div class="flex bg-[#7b2a26] text-[#fffbee] py-5">
-    <div
-      v-for="header in headers"
-      :key="header"
-      class="ml-10 px-6 py-2 hover:bg-[#4d1311]"
-    >
-      {{ header }}
+  <div class="flex bg-[#7b2a26] text-[#fffbee] py-5 justify-between">
+    <div class="flex justify-start flex-wrap">
+      <div
+        v-for="header in headers"
+        :key="header"
+        class="ml-10 px-6 py-2 hover:bg-[#4d1311]"
+      >
+        {{ header }}
+      </div>
     </div>
-    <div class="absolute right-10 px-6 py-2 hover:bg-[#4d1311]">
+    <div class="flex right-10 px-6 py-2 hover:bg-[#4d1311] items-center">
+      <!-- <div class="absolute right-10 px-6 py-2 hover:bg-[#4d1311]"> -->
       <svg
         aria-hidden="true"
         class="w-5 h-5 text-[#fffbee]"
