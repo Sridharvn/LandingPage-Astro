@@ -14,7 +14,9 @@
         <div>info@nbee.in</div>
       </div>
     </div>
-    <div class="p-3 bg-[#ef7216] text-white font-semibold hover:bg-[#c75d12] mx-7">
+    <div
+      class="p-3 bg-[#ef7216] text-white font-semibold hover:bg-gray-700 hover:text-white mx-7"
+    >
       <div>Request A Quote</div>
     </div>
   </div>

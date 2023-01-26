@@ -11,7 +11,11 @@
           Neque porro quisquam est qui dolorem erdu ipsum quia dolor sit amet, consectetur
           adipisci velit
         </div>
-        <div class="bg-white text-[#ef7216] w-1/3 p-3 flex justify-center">Read More</div>
+        <div
+          class="bg-white text-[#ef7216] w-1/3 p-3 flex justify-center hover:bg-gray-700 hover:text-white"
+        >
+          Read More
+        </div>
       </div>
     </div>
     <div class="absolute bottom-0 right-5">
